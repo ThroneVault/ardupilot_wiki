@@ -214,7 +214,7 @@ change the file so it matches the following:
 
 ::
 
-    auto lo
+    auto lo eth0
 
     iface lo inet loopback
     iface eth0 inet dhcp
@@ -396,7 +396,7 @@ The complete file should now look like this:
 
 ::
 
-    auto lo
+    auto lo eth0
 
     iface lo inet loopback
     iface eth0 inet dhcp
